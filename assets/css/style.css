@@ -54,10 +54,27 @@ h2, h3 {
 
 #hero-outer{
     width: 100%;
-    height: 300px;    
-    overflow: hidden;    
-    
-    margin-bottom: 10px;
+    height: 450px;    
+    overflow: hidden;        
+    margin-bottom: 20px;
+}
+
+#hero-image {
+   margin: auto;      
+   border-radius: 50%;
+   width: 400px;   
+   height: 400px;
+   background: url(../images/MyPhoto_nirmal.JPG) no-repeat;
+   background-size: contain;
+   background-position: center;
+   background-color: lightgray; 
+   
+}
+
+#skills {
+   width: 100%;
+   height: 450px;
+   border: 1px solid;
 }
 
 #about {
@@ -83,21 +100,7 @@ footer {
    
 }
 
-#skills {
-   width: 100%;
-   height: 300px;
-   border: 1px solid;
-}
 
-#skills h1{ 
-   text-align: center;   
-   margin-bottom: 10px;
-}
-
-#skills p{ 
-   padding-left: 20px;
-   padding-right: 20px;
-}
 
 #projects {
    width: 100%;
